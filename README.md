@@ -8,6 +8,10 @@ This is a configuration file for WebStorm that enables reformatting JavaScript t
 2. [Determine the location of your Webstorm configuration.](https://www.jetbrains.com/webstorm/help/project-and-ide-settings.html) You're looking for the `codestyles` directory.
 3. Copy the `Idiomatic.xml` file to the `codestyles` directory. The following command will pull this down for you when run within `codestyles`:
 
+```console
+$ curl -O https://raw.githubusercontent.com/techpeace/webstorm-idiomaticjs-formatter/master/Idiomatic.xml
+```
+
 4. Launch WebStorm, and head to Preferences > Editor > JavaScript.
 5. Set "Scheme" to "Idiomatic".
 
